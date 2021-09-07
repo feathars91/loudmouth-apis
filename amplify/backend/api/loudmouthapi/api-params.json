@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/getcontacts",
+            "lambdaFunction": "loudmouthapis5e746b40",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/getcontacts"
+        }
+    ],
+    "resourceName": "loudmouthapi",
+    "apiName": "loudmouthapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "loudmouthapis5e746b40"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-loudmouthapis-dev-150539-authRole",
+        "unAuthRoleName": "amplify-loudmouthapis-dev-150539-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "loudmouthapis5e746b40",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
