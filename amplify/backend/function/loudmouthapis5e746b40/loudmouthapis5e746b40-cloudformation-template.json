@@ -69,7 +69,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-loudmouthapis-dev-150539-deployment",
-          "S3Key": "amplify-builds/loudmouthapis5e746b40-756464326d48594f5869-build.zip"
+          "S3Key": "amplify-builds/loudmouthapis5e746b40-2b345130564930754a38-build.zip"
         }
       }
     },

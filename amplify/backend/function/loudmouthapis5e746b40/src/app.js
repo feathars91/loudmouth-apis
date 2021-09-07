@@ -77,6 +77,12 @@ var Field = editorServer.Field
 
 
 });
+app.get('/getadmins/*', function(req, res) {
+  // Add your code here
+  res.json({success: 'get call succeed!', url: req.url});
+});
+
+
 
 app.get('/getcontacts/*', function(req, res) {
   // Add your code here
